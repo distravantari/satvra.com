@@ -688,3 +688,236 @@ margin-top: -156px;
       }
 
 }
+
+/*------MCZAL STARTS HERE-----------*/
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.photoindex {
+          width: 1300px;
+      }
+      .satvrah3 {
+        font-size: 18px !important;
+      }
+      .satvrap {
+        font-size: 12px !important;
+		width:85px;
+      }
+	  .idxText{
+		margin-left:-20px;
+	  }
+	  .text-left{
+		font-size: 8px !important;
+		width:100px;
+		margin-left:-10px;
+	  }
+	  .photo{
+		width:140px;
+		height:140px;
+		margin-left:50px;
+		margin-bottom:80px;
+		
+	  }
+	  .frame{
+		width:120px;
+		height:120px;
+		position:absolute;
+		left:125px;
+		bottom:0px;
+		margin-bottom:-20px;
+	  }
+	  .slideInUp{
+		margin-left:-50px;
+	  }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.photoindex {
+          width: 1300px;
+      }
+      .satvrah3 {
+        font-size: 12px !important;
+      }
+      .satvrap {
+        font-size: 18px !important;
+		width:120px;
+      }
+	  .idxText{
+		marn-left:-20px;
+	  }
+	  .text-left{
+		font-size: 10px !important;
+		width:120px;
+		margin-left:-10px;
+	  }
+	  .photo{
+		width:150px;
+		height:200px;
+		margin-left:50px;
+		margin-bottom:80px;
+		
+	  }
+	  .frame{
+		width:120px;
+		height:150px;
+		position:absolute;
+		left:125px;
+		bottom:0px;
+		margin-bottom:-20px;
+	  }
+	  .slideInUp{
+		margin-left:-50px;
+	  }
+	  b .text-left{
+		width:400px;
+	  }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+	.photoindex {
+          width: 1300px;
+      }
+      .satvrah3 {
+        font-size: 17px !important;
+      }
+      .satvrap {
+        font-size: 14px !important;
+      }
+	  .idxText{
+		margin-left:-20px;
+	  }
+	  .text-left{
+		font-size: 11px !important;
+		width:120px;
+		margin-left:-10px;
+	  }
+	  .photo{
+		width:170px;
+		height:200px;
+		margin-left:50px;
+		margin-bottom:80px;
+		
+	  }
+	  .frame{
+		width:150px;
+		height:180px;
+		position:absolute;
+		left:125px;
+		bottom:0px;
+		margin-bottom:-20px;
+	  }
+	  .slideInUp{
+		margin-left:-50px;
+	  }
+	  .buttons{	
+		width: 100px;
+		margin-left: 50px;
+	  }
+	  b .text-left{
+		width:400px;
+	  }
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+	.photoindex {
+          width: 1300px;
+      }
+      .satvrah3 {
+        font-size: 17px !important;
+      }
+      .satvrap {
+        font-size: 14px !important;
+      }
+	  .idxText{
+		margin-left:-24px;
+		padding-top:50px;
+	  }
+	  .text-left{
+		font-size: 11px !important;
+		width:120px;
+		margin-left:-10px;
+	  }
+	  }
+	  .slideInUp{
+		margin-left:-50px;
+	  }
+	  .buttons{	
+		width: 100px;
+		margin-left: 50px;
+	  }
+	  b .text-left{
+		width:400px;
+	  }
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+	.photoindex {
+          width: 1300px;
+      }
+      .satvrah3 {
+        font-size: 17px !important;
+      }
+      .satvrap {
+        font-size: 14px !important;
+      }
+	  .idxText{
+		margin-left:-24px;
+		padding-top:50px;
+	  }
+	  .text-left{
+		font-size: 11px !important;
+		width:120px;
+		margin-left:-10px;
+	  }
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+
+/*------MCZAL ENDS HERE-------------*/
