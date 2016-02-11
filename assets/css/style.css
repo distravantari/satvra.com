@@ -1,5 +1,55 @@
 /* =Common Styles
 -------------------------------------------------------------- */
+/*.index-bg{
+  background-image: url("../images/index.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 580px;
+}*/
+
+.background-idx {
+  background: url("../images/index.png") no-repeat;
+  background-size: 100% 140%;
+  height: 580px;
+}
+
+.frame >img{
+  height: 500px;
+  width: 200px;
+}
+
+.hor-line >img{
+  /*height: 5px !important;*/
+  width: 60px;
+}
+
+h1{
+  font-family: 'Raleway bold', sans-serif !important;
+}
+
+.menu-satvra{
+  margin-top: 360px;
+}
+
+.about-bg{
+    background-image:url("../images/abt.png");
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.background-str {
+  background: url("../images/satvra.png") no-repeat;
+  background-size: 100% 100%;
+  height: 780px;
+  /*margin-top:  100px !important;*/
+}
+
+.background-hog {
+  background: url("../images/glassofhouse.png") no-repeat;
+  background-size: 100% 90%;
+  height: 780px;
+  /*margin-top:  100px !important;*/
+}
 
 *,
 *:before,
@@ -38,6 +88,10 @@
 
 html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h4:hover {
+    text-decoration: underline;
 }
 
 input,
@@ -131,8 +185,7 @@ h2 {
 
 .scene,
 .layer {
-  display: block;
-  height: 80%;
+  /*height: 100%;*/
   width: 100%;
   padding: 0;
   margin: 0;
@@ -140,14 +193,19 @@ h2 {
 
 /*for submission*/
 .layers {
-  display: block;
-  height: 30%;
+  /*height: 30%;*/
   width: 100%;
   padding: 0;
   margin: 0;
 }
 
-.layers { position: absolute; }
+
+.menu-s{
+  position: relative;
+  bottom: 10px;
+}
+
+.layers { position: relative; }
 
 .layers div {
   -webkit-transform: translate3d(0,0,0);
@@ -168,7 +226,7 @@ h2 {
   overflow: hidden;
 }
 
-.layer { position: absolute; }
+.layer { position: relative; }
 
 .layer div {
   -webkit-transform: translate3d(0,0,0);
@@ -180,19 +238,6 @@ h2 {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
-}
-
-
-/* Background */
-.background {
-  /*background: url(../images/polygon.png) no-repeat 50% 100%;*/
-  background-color: #ffffff;
-  bottom: -20px;
-  background-size: cover;
-  position: absolute;
-  width: 110%;
-  left: -5%;
-  top: -5%;
 }
 
 

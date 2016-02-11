@@ -207,7 +207,7 @@
     // Configure Layer Styles
     this.$layers.css({
       position:'absolute',
-      display:'block',
+      display:'',
       left: 0,
       top: 0
     });
