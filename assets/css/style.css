@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,900,700);
 /* =Common Styles
 -------------------------------------------------------------- */
 /*.index-bg{
@@ -21,6 +22,7 @@
 .footer-sat {
     position: relative;
     bottom: -484px;
+  width: 300px;
 }
 
 .hor-line >img{
@@ -419,6 +421,22 @@ h2 {
 	top: 0;
 }
 
+.layer{
+    list-style: none;
+}
+
+.house-of-glass-text{
+    font-family: "Raleway";
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 100px;
+    padding: 20px;
+    background: #4E181C;
+    color: #FFF;
+    max-width: 250px;
+    text-align: justify;
+    line-height: 14px;
+}
 
 /* =Animation
 -------------------------------------------------------------- */
