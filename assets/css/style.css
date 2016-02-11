@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,900,700);
 /* =Common Styles
 -------------------------------------------------------------- */
 /*.index-bg{
@@ -15,7 +16,7 @@
 
 .frame >img{
   height: 500px;
-  width: 200px;
+  width: 300px;
 }
 
 .hor-line >img{
@@ -414,6 +415,22 @@ h2 {
 	top: 0;
 }
 
+.layer{
+    list-style: none;
+}
+
+.house-of-glass-text{
+    font-family: "Raleway";
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 100px;
+    padding: 20px;
+    background: #4E181C;
+    color: #FFF;
+    max-width: 250px;
+    text-align: justify;
+    line-height: 14px;
+}
 
 /* =Animation
 -------------------------------------------------------------- */
@@ -739,8 +756,8 @@ margin-top: -156px;
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
+@media only screen
+  and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 	.photoindex {
@@ -766,7 +783,7 @@ margin-top: -156px;
 		height:140px;
 		margin-left:50px;
 		margin-bottom:80px;
-		
+
 	  }
 	  .frame{
 		width:120px;
@@ -784,9 +801,9 @@ margin-top: -156px;
 /* ----------- iPhone 6 ----------- */
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
 	.photoindex {
           width: 1300px;
@@ -811,7 +828,7 @@ margin-top: -156px;
 		height:200px;
 		margin-left:50px;
 		margin-bottom:80px;
-		
+
 	  }
 	  .frame{
 		width:120px;
@@ -832,10 +849,10 @@ margin-top: -156px;
 /* ----------- iPhone 6+ ----------- */
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
 	.photoindex {
           width: 1300px;
       }
@@ -858,7 +875,7 @@ margin-top: -156px;
 		height:200px;
 		margin-left:50px;
 		margin-bottom:80px;
-		
+
 	  }
 	  .frame{
 		width:150px;
@@ -871,7 +888,7 @@ margin-top: -156px;
 	  .slideInUp{
 		margin-left:-50px;
 	  }
-	  .buttons{	
+	  .buttons{
 		width: 100px;
 		margin-left: 50px;
 	  }
@@ -882,9 +899,9 @@ margin-top: -156px;
 /* ----------- Galaxy S3 ----------- */
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 2) {
 	.photoindex {
           width: 1300px;
@@ -908,7 +925,7 @@ margin-top: -156px;
 	  .slideInUp{
 		margin-left:-50px;
 	  }
-	  .buttons{	
+	  .buttons{
 		width: 100px;
 		margin-left: 50px;
 	  }
@@ -920,9 +937,9 @@ margin-top: -156px;
 /* ----------- Galaxy S4 ----------- */
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3) {
 	.photoindex {
           width: 1300px;
@@ -947,9 +964,9 @@ margin-top: -156px;
 /* ----------- Galaxy S5 ----------- */
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3) {
 
 }
@@ -957,9 +974,9 @@ margin-top: -156px;
 /* ----------- HTC One ----------- */
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
   and (-webkit-device-pixel-ratio: 3) {
 
 }
