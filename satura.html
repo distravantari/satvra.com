@@ -179,10 +179,10 @@
 
                   </div>
                     <div class="col-md-2 col-xs-2 col-sm-2 menu-satvra">
-                      <b><a href="#"><h3 style="color:black;margin-top:20px;text-align:right;font-weight:700;margin-bottom:0px;">PURPOSES</h3></a></b>
+                      <b><a href="#" onclick="pursat()"><h3 style="color:black;margin-top:20px;text-align:right;font-weight:700;margin-bottom:0px;">PURPOSES</h3></a></b>
                       <div style="color:black;text-align:left;background:#4E181C;height:3px;margin-bottom:15px;width:85%;font-weight:700;">&nbsp;</div>
-                      <b><a href="assets/download/TOR.pdf"><h3 style="color:black;margin-top:-12px;text-align:right;font-weight:700;">CONCEPT</h3></a></b>
-                      <b><a href="https://satura2016.typeform.com/to/hjQpKg"><h3 style="color:black;margin-top:-12px;text-align:right;font-weight:700;">HIGHLIGHTS</h3></a></b>
+                      <b><a href="#" onclick="consat()"><h3 style="color:black;margin-top:-12px;text-align:right;font-weight:700;">CONCEPT</h3></a></b>
+                      <b><a href="#" onclick="highsat()"><h3 style="color:black;margin-top:-12px;text-align:right;font-weight:700;">HIGHLIGHTS</h3></a></b>
                     </div>
                 </li>
 
@@ -251,6 +251,24 @@
                    window.location = goTo;
               },2000);
           });
+        </script>
+
+        <script type="text/javascript">
+          function pursat() {
+            $('.sat-purposes').removeClass('hidden');
+            $('.sat-concept').addClass('hidden');
+            $('.sat-high').addClass('hidden');
+          }
+          function consat() {
+            $('.sat-purposes').addClass('hidden');
+            $('.sat-concept').removeClass('hidden');
+            $('.sat-high').addClass('hidden');
+          }
+          function highsat() {
+            $('.sat-purposes').addClass('hidden');
+            $('.sat-concept').addClass('hidden');
+            $('.sat-high').removeClass('hidden');
+          }
         </script>
 
         <!-- Javascript -->
